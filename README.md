@@ -1,29 +1,5 @@
 # ReportingSystem
 
-TODO: Write a gem description
+Pairing session for job interview.
 
-## Installation
-
-Add this line to your application's Gemfile:
-
-    gem 'reporting_system'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install reporting_system
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+Build a fuzzy error reporting system. It should mark the beginning of an event (“background job started”) and the end of an event (“background job finished”). If fewer than 50% of events are completed within a 6 hour window, an error will be logged.
